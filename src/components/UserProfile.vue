@@ -10,7 +10,7 @@
           <strong>Followers: </strong> {{ followers }}
         </div>
 
-        <button @click="followMe" id="follow_button">Follow me!</button>
+        <button @click="followMe" id="follow_button">Follow!!!</button>
 
         <form class="user-profile__create-twet" @submit.prevent="createNewTwit">
           <label for="newTwet"><strong>New Twit</strong></label>
